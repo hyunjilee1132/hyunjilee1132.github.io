@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자기소개</title>
+  </head>
+  <body>
+    <img src="/otter.jpg" alt="수달" />
+    <div class="container">
+      <h1>저를 소개합니다 🙌🏻</h1>
+
+      <br />
+
+      <h2>기본정보</h2>
+      <p><strong>이름:</strong> 이현지</p>
+      <p><strong>전공:</strong> 경영학과</p>
+      <p><strong>프로그래밍 경험:</strong> 약 6개월</p>
+
+      <br />
+
+      <h2>취미</h2>
+      <p><strong>운동:</strong> 산책</p>
+      <p><strong>드라마:</strong> 더 글로리</p>
+      <p><strong>음악:</strong> 데이식스, 드뷔시</p>
+      <p><strong>그외:</strong> 사진찍기, 맛집탐방, 여행</p>
+
+      <br />
+
+      <h2>일상</h2>
+      <p>엊그제 콘서트 다녀왔어요!</p>
+      <div class="image-row">
+        <img src="/1.jpeg" alt="콘서트1" class="no-border-radius" />
+        <img src="/2.jpeg" alt="콘서트2" class="no-border-radius" />
+      </div>
+
+      <br />
+
+      <h2>13기에 임하는 마음</h2>
+      <p>
+        <strong>개발자가 되고 싶었던 계기:</strong> <br />취미로 개발을 추천받게 되어 시작하게
+        되었는데, <br />외부 변수에 영향을 덜 받고, 능동적으로 성장할 수 있다는 점에 매력을 느껴
+        <br />
+        개발자가 되기로 결심했습니다.
+      </p>
+      <p>
+        <strong>어떤 개발자가 되고 싶은지:</strong> 누군가에게 도움을 줄 수 있는 개발자가 되고
+        싶습니다.
+      </p>
+
+      <br />
+      <h1>잘 부탁드립니다!</h1>
+    </div>
+  </body>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 120%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+    }
+    .container {
+      text-align: center;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 600px;
+    }
+    h1 {
+      color: #333333;
+      margin-bottom: 20px;
+    }
+    p {
+      margin: 10px 0;
+      color: #555555;
+    }
+    img {
+      width: 380px;
+      height: 300px;
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .image-row img {
+      width: 300px;
+      height: auto;
+    }
+
+    .image-row img.no-border-radius {
+      border-radius: 0;
+    }
+  </style>
+</html>
